@@ -1,0 +1,296 @@
+/* 首页专有css */
+
+.main {
+    margin-top: 10px;
+    margin-left: 220px;
+    height: 455px;
+    width: 980px;
+}
+
+.foucs {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+
+/* 复制swiper css样式 */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.new_hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.new_hd h5 {
+    float: left;
+    font-style: 14px;
+}
+
+.new_hd .more {
+    float: right;
+}
+
+.new_hd .more::after {
+    font-family: 'icomoon';
+    content: '\ea52';
+}
+
+.new_bd {
+    padding: 5px 15px 0;
+}
+
+.new_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    /* 让超出的部分用省略号代替 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+
+/* 推荐模块制作 */
+
+.recom {
+    margin-top: 12px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom-hd {
+    height: 163px;
+    width: 205px;
+    float: left;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom-hd p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 3px;
+}
+
+.recom-bd {
+    float: left;
+}
+
+.recom-bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom-bd ul li img {
+    height: 163px;
+    width: 248px;
+}
+
+.recom-bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+.xi {
+    margin-top: 20px;
+    height: 230px;
+    border: 1px solid #ebebeb;
+}
+
+.xi-hd .li1 {
+    float: left;
+    font-style: 14px;
+    margin-left: 10px;
+}
+
+.xi-hd .li2 {
+    float: right;
+    margin-right: 10px;
+}
+
+.xi-bd ul li {
+    float: left;
+}
+
+.xi-bd ul li img {
+    width: 185px;
+}
+
+.xi-bd .zh {
+    padding-top: 10px;
+}
+
+
+/*一楼家用电器楼层  */
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    height: 361px;
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.shouji {
+    margin-top: 20px;
+}
+
+video {
+    float: right;
+    width: 250px;
+    height: 45px;
+}

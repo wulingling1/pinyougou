@@ -1,0 +1,171 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-weight: 700;
+    font-style: 16px;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 22px;
+    font-style: 16px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\ea51';
+}
+
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 418px;
+    border: 1px sol transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.price s {
+    font-size: 12px;
+    color: #666;
+    margin-left: 4px;
+}
+
+.price em {
+    color: #c81523;
+    font-size: 16px;
+}
+
+.price i {
+    color: #c81523;
+    font-size: 16px;
+}
+
+.sold {
+    margin-top: 6px;
+}
+
+.operate button {
+    width: 290px;
+    height: 50px;
+    background-color: #c81523;
+    color: #fff;
+    font-style: 16px;
+}
+
+.xq {
+    margin-top: 40px;
+}
+
+.page {
+    margin-top: 40px;
+    height: 66px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.sui-pagination ul>.active>a {
+    border-color: #fff;
+    background-color: #fff;
+    color: #c81623;
+    cursor: default;
+}
+
+.sui-pagination ul>.active>a:hover {
+    border: 1px solid #ddd;
+    background: #ccc;
+}
+
+.sui-pagination ul>li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.pagination-large ul>li>a,
+.pagination-large ul>li>span {
+    padding: 9px 18px;
+    color: #333;
+}
+
+.sui-pagination ul>li>a:hover {
+    border: 1px solid #ddd;
+    background: #ccc;
+}
+
+.sui-pagination ul>.dotted>span,
+.sui-pagination ul>.dotted>a {
+    border: 0;
+}
+
+.pagination-large div .page-num {
+    padding: 9px 18px;
+}
+
+.pagination-large div .page-num+.page-confirm {
+    padding: 7px 16px;
+    border: 1px solid #ddd;
+    background-color: #f6f6f6;
+    color: #666;
+}
+
+.sui-pagination div {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.page input {
+    height: 30px;
+    border: 1px solid #ccc;
+    width: 40px;
+}
+
+.page input:hover {
+    border: 1px solid skyblue;
+    transform: scale(1.3);
+}
+
+.page button {
+    height: 30px;
+    width: 80px;
+}
